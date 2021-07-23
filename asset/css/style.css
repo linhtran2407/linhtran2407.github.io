@@ -173,11 +173,10 @@ section {
   width: 200px;
   display: block;
   margin: 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  border: 10px solid #f5f1de;
-  background: url(../img/profile.jpg) 0px -25px;
+  /* -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; */
+  /* border-radius: 50%; */
+  background: url(../img/profile.jpg) 0px -15px;
   background-size: cover;
   background-repeat: no-repeat;
 }
