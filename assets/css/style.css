@@ -87,10 +87,11 @@ body {
 }
 
 nav {
-  background: rgb(32, 78, 153);
+  background: rgb(100, 149, 237);
   text-align: center;
   height: 45px;
   margin-bottom: -45px;
+  /* opacity: 0.52; */
 }
 
 nav > li {
@@ -181,8 +182,8 @@ section {
   background-repeat: no-repeat;
 }
 
-.beige {
-  background-color: #f5f1de;
+.azure {
+  background-color: #f0ffff;
 }
 
 #about-me {
