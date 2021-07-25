@@ -492,8 +492,8 @@ nav li a:hover {
   opacity: 0;
 }
 
-.visible {
-}
+/* .visible {
+} */
 
 .circularized {
   -moz-transition: all 0.25s;
