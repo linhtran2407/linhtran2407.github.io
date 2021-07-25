@@ -180,7 +180,7 @@ function circularize() {
                 $('.skill-icon').addClass('circularized');
                 $('#info00').css('opacity', '1');
                 allowed = true;
-            }, 1500);
+            }, 150);
         }
     });
 }
