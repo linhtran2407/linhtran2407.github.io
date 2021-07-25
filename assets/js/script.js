@@ -77,14 +77,14 @@ function fadeInIntro() {
     $('#small').css('display', 'none');
     setTimeout(function() {
         $('#overlay').fadeIn(500);
-    }, 750);
+    }, 50);
     setTimeout(function() {
         $('#main-title').fadeIn(500);
         $('#small').fadeIn(2000);
-    }, 2000);
+    }, 50);
     setTimeout(function() {
         $('#bouncing-arrow').show(500);
-    }, 3500);
+    }, 50);
 }
 
 function guaranteeFullScreenSections() {
@@ -103,7 +103,7 @@ function aboutAnimations() {
             $('#profile-pic').css('transform', 'scale(1)');
             setTimeout(function() {
                 $('#about-me').css('visibility', 'visible').hide().fadeIn(1000);
-            }, 500);
+            }, 300);
             animatedAbout = true;
         };
     });

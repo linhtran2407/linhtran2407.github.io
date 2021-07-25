@@ -4,20 +4,20 @@ app.controller('MainController', ['$scope', function($scope) {
     $scope.experiences =
     [
         {
-            title: 'Volunteer Versus',
-            text: '"Which group volunteered the most?" "Who has the most hours?" These questions have come up often over the years in my experiences volunteering. Inspired by a strong rivalry between two famous volunteering organizations as well as the inconveniences of viewing volunteering records, I sought out to design an app that would simplify managing records as well as bring stats-based competition into volunteering. The result is Volunteer Versus! Doing the project was very fun as I really got to use Ruby on Rails as well as multiple other related tools. Worked across the stack; did this solo!',
+            title: 'Path-finding visualizer',
+            text: "A visualizer tool for path-finding algorithms, created with JavaScript, Express.js, HTML/CSS. The tool allows user to create blocking wall between starting node and target node and choose an algorithm to visualize. The tool will animate the path-finding process. After the algorithm is done, the shortest path found will be highlighted. The whole project's credit goes to Clément Mihailescu - a great teacher whom I learn a tons from!",
             image: 'assets/img/vv.png',
-            link: 'https://volunteerversus.herokuapp.com'
+            link: 'https://linhtran2407.github.io/PathFindingVisualizer/'
         },
         {
-            title: 'Gitlet',
-            text: 'I made a copy of Git in Java. Yes, Git—the exact version control system that was involved in pushing this very website! Although Gitlet was given as a class project, I had to design everything from scratch—no skeleton code or anything like that. Another thing was that I had to write all the tests by myself. All these things were definitely non-trivial and the project was relatively large. Certainly, this was one of the most practical and challenging projects I have done to date.',
-            image: 'assets/img/gitlet.png',
-            link: '#'
+            title: 'Fake Caller',
+            text: 'An Android app that is created with Java, Android Studio, and Back4App for data storage. The app allows Android users to make fake call during dangerous or uncomfortable situation to avoid being followed. Users can also schedule fake incoming call, or make real call to 911 in case of real emergency when the app alone cannot help. The idea came from my personal experience when I was usually cat-called and followed by uneducated men at night. I really hope that the app, when published, can provide some help to other girls/women like me.',
+            image: 'assets/img/fakecaller.png',
+            link: 'https://github.com/app-project1/fake-caller-app'
         },
         {
-            title: 'This Website',
-            text: 'This very site stands as a project! I intend to showcase the design skills that I have, as well as highlight some of the things I have done and picked up over time. The usual elements of front-end development are involved—HTML, CSS and JavaScript. Such libraries and frameworks as jQuery and AngularJS are used for some animations and conveniences. Of course, the site is technically always a work in progress since I will document projects and other things to come. Even at that, there is a lot of room for this site to grow!',
+            title: 'Together',
+            text: 'A web server developed using JavaScript, Node.js, Express.js, Mongoose, HTML/CSS. It allows users to ',
             image: 'assets/img/this.png',
             link: '#'
         },
