@@ -139,11 +139,6 @@ nav li a:hover::before {
   transition: 0.5s;
 }
 
-/* 
-.beige-nav {
-  background: rgba(0, 0, 0, 0.6);
-} */
-
 header {
   text-align: center;
 }
@@ -265,26 +260,6 @@ section {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-}
-
-.fa-facebook-square:hover {
-  color: rgb(59, 89, 152);
-}
-
-.fa {
-  -moz-transition: 0.25s;
-  -o-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  cursor: pointer;
-}
-
-.fa-google-plus-square:hover {
-  color: rgb(221, 75, 57);
-}
-
-.fa-twitter-square:hover {
-  color: rgb(85, 172, 238);
 }
 
 .fa-linkedin-square:hover {
