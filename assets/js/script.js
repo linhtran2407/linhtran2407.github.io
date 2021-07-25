@@ -9,7 +9,7 @@ $(document).ready(function() {
     circularize();
     infoOnHover();
     aboutAnimations();
-    experiencesAnimations();
+    projectsAnimations();
     interestsAnimations();
     contactAnimations();
 });
@@ -151,7 +151,7 @@ function interestsAnimations() {
     });
 }
 
-function experiencesAnimations() {
+function projectsAnimations() {
     $(window).scroll(function(event) {
         $('.experience').each(function(index, el) {
             if ($(this).visible(true) && !$(this).hasClass('visible')) {

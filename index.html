@@ -54,7 +54,7 @@
         <div id="content" ng-controller="MainController">
             <nav>
                 <li id="item1"><a href="#about">About</a></li>
-                <li id="item2"><a href="#experiences">Experiences</a></li>
+                <li id="item2"><a href="#projects">Projects</a></li>
                 <li id="item3"><a href="#skills">Skills</a></li>
                 <li id="item6"><a href="./assets/LinhTran_Resume.pdf" target="_blank">Resume</a></li>
                 <li id="item4"><a href="#interests">Interests</a></li>
@@ -70,19 +70,19 @@
                 </div>
                 <div id="about-me">
                     I am a Computer Science major at Bryn Mawr College, a technology enthusiast, and an always-curious mind. 
-                    I've enriched my background through multiple experiences, from building mobile app to web server, from developing 
+                    I've enriched my background through multiple projects, from building mobile app to web server, from developing 
                     back-end to front-end, from taking paid internship to engaging myself in volunteer work that benefits our society. 
                     Nonetheless, there's still a long path and I wake up everyday excited, knowing that there are a lot of great 
                     things await me to discover. Continue on to learn more about what I've done!
                 </div>
             </section>
             <div class="bg-color-2">
-                <section id="experiences">
+                <section id="projects">
                     <header>
-                        <h1>Experiences</h1>
-                        <h2>The things I've done so far</h2>
+                        <h1>Projects</h1>
+                        <h2>For more projects, please visit my <a href="https://github.com/linhtran2407" target="_blank">Github</a></h2>
                     </header>
-                    <div class="experience" ng-repeat="experience in experiences">
+                    <div class="experience" ng-repeat="experience in projects">
                         <div class="image"><img ng-src="{{ experience.image }}" alt=""></div>
                         <div class="exp-info">
                             <div class='experience-title'><a href="{{ experience.link }}" target="_blank">{{ experience.title }}</a></div>
