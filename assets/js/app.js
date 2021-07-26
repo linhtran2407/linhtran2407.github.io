@@ -51,7 +51,7 @@ app.controller('MainController', ['$scope', function($scope) {
         
         {
             name: 'The Kinjaz',
-            text: 'Must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
+            text: 'Other from coding, I also do hiphop. This is my highly-recommend, must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
             link: 'https://www.youtube.com/user/TheKinjaz',
             image: 'assets/img/kinjaz.png'
         },
