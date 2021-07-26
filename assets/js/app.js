@@ -51,13 +51,13 @@ app.controller('MainController', ['$scope', function($scope) {
         
         {
             name: 'The Kinjaz',
-            text: 'Other from coding, I also do hiphop. This is my highly-recommend, must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
+            text: 'Other from coding, dancing is a huge part of my life. This is my highly-recommend, must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
             link: 'https://www.youtube.com/user/TheKinjaz',
             image: 'assets/img/kinjaz.png'
         },
         {
             name: 'Les Twins',
-            text: 'Hiphop legends. They do not have a Youtube channel though, but followers can always check out their videos by searching for "Les Twins".',
+            text: 'Hip-hop is not only my main dancing style, but also the culture that I live within. Les Twins are two hip-hop legends that I admire the most. They do not have a Youtube channel, but followers can always check out their videos by searching for "Les Twins".',
             link: 'https://www.youtube.com/watch?v=3GNG12g2bKw',
             image: 'assets/img/lestwins.png'
         }

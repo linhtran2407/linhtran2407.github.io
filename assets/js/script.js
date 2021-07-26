@@ -81,10 +81,10 @@ function fadeInIntro() {
     setTimeout(function() {
         $('#main-title').fadeIn(500);
         $('#small').fadeIn(2000);
-    }, 50);
+    }, 80);
     setTimeout(function() {
         $('#bouncing-arrow').show(500);
-    }, 50);
+    }, 80);
 }
 
 function guaranteeFullScreenSections() {
