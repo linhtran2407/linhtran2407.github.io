@@ -48,6 +48,7 @@ app.controller('MainController', ['$scope', function($scope) {
             link: 'https://www.vox.com/recode',
             image: 'assets/img/recode.png'
         },
+        
         {
             name: 'The Kinjaz',
             text: 'Must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
