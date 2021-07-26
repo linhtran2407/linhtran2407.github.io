@@ -38,27 +38,27 @@ app.controller('MainController', ['$scope', function($scope) {
     [
         {
             name: 'The Verge',
-            text: 'One of the top sites to go to for technology news. Been following it since it was "This is my Next".',
+            text: 'One of the top sites to go to for technology news. Also fun to check out since it provides news on other various topics like Entertainment or Creators',
             link: 'http://www.theverge.com/',
             image: 'assets/img/theverge.png'
         },
         {
-            name: 'MacRumors',
-            text: 'Good source of news about Apple-related things. Forums are useful, too. Discovered it during a history day project years ago.',
-            link: 'http://www.macrumors.com/',
-            image: 'assets/img/macrumors.png'
+            name: 'Recode',
+            text: 'Another great source of technology news about. More old-fashion, formal, and tech-focused compared to The Verge.',
+            link: 'https://www.vox.com/recode',
+            image: 'assets/img/recode.png'
         },
         {
-            name: 'iDownloadBlog',
-            text: 'Very useful for finding out all that\'s needed for jailbreaks and the like.',
-            link: 'http://www.idownloadblog.com/',
-            image: 'assets/img/idownloadblog.png'
+            name: 'The Kinjaz',
+            text: 'Must-know, must-watch, must-follow dance crew of the world. Amazing dancers with incredible techniques that will definitely awe you with their talents.',
+            link: 'https://www.youtube.com/user/TheKinjaz',
+            image: 'assets/img/kinjaz.png'
         },
         {
-            name: 'IGN',
-            text: 'The reviews that IGN gives on my favorite shows (like Arrow and Flash) are places for interesting discussions.',
-            link: 'http://www.ign.com/',
-            image: 'assets/img/ign.png'
+            name: 'Les Twins',
+            text: 'Hiphop legends. They do not have a Youtube channel though, but followers can always check out their videos by searching for "Les Twins".',
+            link: 'https://www.youtube.com/watch?v=3GNG12g2bKw',
+            image: 'assets/img/lestwins.png'
         }
     ];
 }]);
